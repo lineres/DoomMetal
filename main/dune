@@ -1,0 +1,13 @@
+(copy_files# src/*)
+(copy_files# resources/*)
+
+(executable
+  (public_name DoomMetal)
+  (name main)
+  (libraries tsdl sdl2 sdl2_ttf)
+)
+
+(ocamllex LevelLexer)
+(ocamlyacc LevelParser)
+
+(env (dev (flags (:standard -warn-error -A -w -9 -w -32))))

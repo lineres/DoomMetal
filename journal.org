@@ -1,0 +1,90 @@
+nom, prenom, email
+Tazouev Arbi, tazouev.arbi@gmail.com
+Guinet Virgile, virgile.guinet@gmail.com
+projet: DoomMetal
+
+<15/12/2022>
+Jeu style doom en OCAML
+FAIT : 
+  - trouve librairie "bogue" de rendu grahique 2d (interface pour SDL2)
+  - code pour expérimenter (affichage d'un rectangle)
+À FAIRE:
+  - démo en 2D vue de dessus pour le raycasting
+  
+  
+<25/02/2023>
+Degorre
+
+Fait :
+- démo 2D et 3D avec ray casting (rayons 2D mais affichage 3D)
+- effet fisheye, obscurcissement avec la profondeur
+- début d'implémentation des collisions (encore quelques problèmes)
+- début gestion des textures (avec quelques bugs)
+
+-> objectif de février/début mars dépassé !
+
+Faire :
+- corriger bugs (collisions et textures)
+- projectiles et ennemis
+
+
+Question (AD) : avec les objectifs actuels, n'allez-vous pas fini le projet trop tôt ?
+
+
+<15/02/23>
+
+Degorre
+
+Fait :
+
+- ajout textures (SDL2 sans bogue), l'affichage semble OK
+- collisions  (bloquent complètement le joueur)
+- ennemis (statiques) et projectiles (mais parfois le projectile passe à travers des murs)
+
+À faire :
+
+- merger les 2 branches
+- bugs des tirs qui traversent les murs à corriger
+- rendu des ennemis
+- déplacement des ennemis
+- sol, plafond (ou ciel)
+- MAJ calendrier avec nouveaux objectifs (cf. ci-dessous). Raison : les objectifs de mars sont déjà atteints.
+
+Objectifs supplémentaires (à ajouter dans le calendrier)
+
+- HUD
+- son avec localisation
+- un peu de physique (accélération/décélération du joueur; frottements pour les collisions)
+
+<22/03/23>
+
+Pagani
+
+- affichage 3D, un petit bug d'image quand on s'approche, ok acceleration.deceleration mais encore work in progress
+- pas encore fait HUD
+- pas encore fait audio
+- fait un format dedié pour rentrer le code. 
+
+à faire:
+- Virgile : affichage des ennemie et possiblement audio
+- Arbi :
+    -finir deplacement: pour l'instant on ne peut pas se deplacer en diagonale 
+    (corriger le bug sur les textures)
+    - ensuite faire les HUD
+
+<12/04/2023>
+
+Degorre
+
+Fait :
+
+- collisions (avec glissement et friction)
+- déplacement diagonal
+- en cours : ennemis (détection s'il est dans le champs de vision, faite)
+- en cours : HUD
+
+À faire (jusqu'à la fin du projet) :
+
+- finir les objectifs en cours
+- faire le reste des objectifs prévus au calendrier
+- refactorisation du code ?
